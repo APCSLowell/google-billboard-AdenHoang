@@ -10,7 +10,7 @@ break;
 }
    }
 	}
-	
+}
 
 public static boolean isPrime(double num){
   if(num < 2)
@@ -19,6 +19,5 @@ public static boolean isPrime(double num){
     if(num % i == 0)
       return false;
   return true;
-}
 }
 
