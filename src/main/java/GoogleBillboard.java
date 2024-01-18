@@ -3,18 +3,19 @@ public class GoogleBillboard {
 	public static void main(final String[] args) {
 		
 
-    for (int i = 2; i <= args.length(); i++) {
-        String digits = args.substring(i, i + 10);
+    for (int i = 2; i <= e.length(); i++) {
+        String digits = e.substring(i, i + 10);
         double dNum = Double.parseDouble(digits);
 
         if (isPrime(dNum)) {
             break;
         }
-    }return dNum;
+    }
+ System.out.println(dNum);
 	}
 	
 
-static public boolean isPrime(double num){
+public static boolean isPrime(double num){
   if(num < 2)
     return false;
   for(int i = 2; i <= Math.sqrt(num); i++)
