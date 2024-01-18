@@ -8,7 +8,7 @@ if (isPrime(dNum)){
 System.out.println(dNum);
 break;
 }
-}
+   }
 	}
 	
 
@@ -20,5 +20,5 @@ public static boolean isPrime(double num){
       return false;
   return true;
 }
-
+}
 
